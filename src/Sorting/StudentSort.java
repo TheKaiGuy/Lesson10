@@ -71,6 +71,8 @@ public static void swap(int[] a, int x, int y){
 
 ////////////////////////////////////////////////////////////////
 
+//modified to work with ISSStudents
+//original was only for integers
 public static void selectionSort(ISSStudent[] a){
    for (int i = 0; i < a.length - 1; i++){
       int minIndex = findMinimum(a, i);
